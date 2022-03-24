@@ -53,7 +53,10 @@ function Header() {
         </div>
         <div className="flex items-center justify-end space-x-4">
           <HomeIcon onClick={() => router.push("/")} className="navBtn" />
-          <MenuIcon className="h-6 md:hidden cursor-pointer" />
+          <PlusCircleIcon
+            onClick={() => setOpen(true)}
+            className="h-6 md:hidden cursor-pointer"
+          />
 
           {session ? (
             <>

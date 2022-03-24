@@ -56,7 +56,7 @@ function Header() {
           {session ? (
             <PlusCircleIcon
               onClick={() => setOpen(true)}
-              className="h-6 md:hidden cursor-pointer"
+              className="h-10 md:hidden cursor-pointer"
             />
           ) : (
             <></>
